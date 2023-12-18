@@ -21,8 +21,8 @@ author:
   resume_link: https://faceted-share-643.notion.site/Jimmy-457c00e41fa04ed9a85b937cea53fe53?pvs=4
 
 # URL settings
-url: "https://iam-jimmy.github.io/my-blog/" #
-baseurl:
+url: "https://iam-jimmy.github.io" #
+baseurl: /my-blog
 permalink: /:title/
 google_analytics: # leave it blank if not wish
 fb_appid:
