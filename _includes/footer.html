@@ -1,6 +1,6 @@
 <footer class="footer">
     <a class="footer_item" href="{{ site.author.resume_link }}" target="_blank">resume</a>
-    <a class="footer_item" href="/feed.xml">rss</a>
+    <a class="footer_item" href="{{ site.url }}{{ site.baseurl }}/feed.xml">rss</a>
     <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
     <small class="footer_copyright">
         <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
@@ -12,7 +12,7 @@
     >klisé</a>
     </small>
 </footer>
-<script src="/assets/js/main.js" defer="defer"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js" defer="defer"></script>
 {%- if site.google_analytics -%}
 <!-- Google tag (gtag.js) -->
 <script
@@ -32,12 +32,12 @@
 </script>
 {%- endif -%}
 {%- if page.url == '/archive/' -%}
-<script src="/assets/js/search.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/search.min.js"></script>
 <script>
     var sjs = SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('search-results'),
-        json: '/assets/search.json',
+        json: '{{ site.url }}{{ site.baseurl }}/assets/search.json',
     });
 </script>
 {%- endif -%}
