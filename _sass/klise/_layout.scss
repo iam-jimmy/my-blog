@@ -221,9 +221,6 @@
   margin-top: 6.3rem;
   margin-bottom: 7.2rem;
   text-align: center;
-  @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Koulen&family=Luckiest+Guy&display=swap');
-  //font-family: 'Bungee', sans-serif;
-  //font-family: 'Luckiest Guy', cursive;
   font-family: 'Koulen', sans-serif;
 
   @include media-query($on-mobile) {
